@@ -1,0 +1,86 @@
+<templateSet group="PHP Interfaces">
+  <template name="pubfa" value="public function $NAME$($PARAMETERS$): array;" description="public function (returns array)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Interface Member" value="true" />
+    </context>
+  </template>
+  <template name="pubfb" value="public function $NAME$($PARAMETERS$): bool;" description="public function (returns bool value)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Interface Member" value="true" />
+    </context>
+  </template>
+  <template name="pubff" value="public function $NAME$($PARAMETERS$): float;" description="public function (returns float value)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Interface Member" value="true" />
+    </context>
+  </template>
+  <template name="pubfi" value="public function $NAME$($PARAMETERS$): int;" description="public function (returns int value)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Interface Member" value="true" />
+    </context>
+  </template>
+  <template name="pubfs" value="public function $NAME$($PARAMETERS$): string;" description="public function (returns string value)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Interface Member" value="true" />
+    </context>
+  </template>
+  <template name="pubsfa" value="public static function $NAME$($PARAMETERS$): array;" description="public static function (returns array)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Interface Member" value="true" />
+    </context>
+  </template>
+  <template name="pubsfb" value="public static function $NAME$($PARAMETERS$): bool;" description="public static function (returns bool value)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Interface Member" value="true" />
+    </context>
+  </template>
+  <template name="pubsff" value="public static function $NAME$($PARAMETERS$): float;" description="public static function (returns float value)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Interface Member" value="true" />
+    </context>
+  </template>
+  <template name="pubsfi" value="public static function $NAME$($PARAMETERS$): int;" description="public static function (returns int value)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Interface Member" value="true" />
+    </context>
+  </template>
+  <template name="pubsfs" value="public static function $NAME$($PARAMETERS$): string;" description="public static function (returns string value)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Interface Member" value="true" />
+    </context>
+  </template>
+  <template name="pubfv" value="public function $NAME$($PARAMETERS$): void;" description="public function (returns void)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Interface Member" value="true" />
+    </context>
+  </template>
+  <template name="pubsfv" value="public static function $NAME$($PARAMETERS$): void;" description="public static function (returns void)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Interface Member" value="true" />
+    </context>
+  </template>
+</templateSet>

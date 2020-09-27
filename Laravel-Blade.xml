@@ -1,0 +1,322 @@
+<templateSet group="Laravel-Blade">
+  <template name="@elseif" value="@elseif ($START$)&#10;    $SELECTION$$END$" description="Blade @elseif" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@for" value="@for ($i = 0; $i &lt; $LIMIT$; $i++)&#10;   $SELECTION$$END$&#10;@endfor" description="Blade @for" toReformat="false" toShortenFQNames="true">
+    <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@foreach" value="@foreach ($USERS$ as $USER$)&#10;    $SELECTION$$END$&#10;@endforeach" description="Blade @foreach" toReformat="false" toShortenFQNames="true">
+    <variable name="USERS" expression="" defaultValue="&quot;$users&quot;" alwaysStopAt="true" />
+    <variable name="USER" expression="" defaultValue="&quot;$user&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@if" value="@if ($START$)&#10;    $SELECTION$$END$&#10;@endif" description="Blade @if" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@ifelse" value="@if ($START$)&#10;    $SELECTION$$END$&#10;@else&#10;    &#10;@endif" description="Blade @ifelse" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@include" value="@include('$VIEW$'$DATA$)" description="Blade @include" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW" expression="" defaultValue="&quot;partials.filename&quot;" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="&quot;, ['data' =&gt; $data]&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@layout" value="@extends('layouts.default')&#10;&#10;@section('sidebar')&#10;    @parent&#10;    &#10;@stop&#10;&#10;@section('content')&#10;&#9;@include('forms.create')&#10;&#9;&#10;@stop" description="Blade template skeleton" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@section" value="@section('$SECTION$')&#10;    $SELECTION$$END$&#10;@endsection" description="Blade @section" toReformat="false" toShortenFQNames="true">
+    <variable name="SECTION" expression="" defaultValue="&quot;content&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@while" value="@while ($START$)&#10;    $SELECTION$$END$&#10;@endwhile" description="Blade @while" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="{{" value="{{ $START$ }}$END$" description="Blade {{ echo data }}" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@yield" value="@yield('$CONTENT$'$DEFAULT$)$END$" description="Blade @yield" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTENT" expression="" defaultValue="&quot;content&quot;" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="" defaultValue="&quot;, 'Default Content'&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@extends" value="@extends('layouts.$NAME$')$END$" description="Blade @extends" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;default&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@sectionx" value="{{-- Extend @section from parent --}}&#10;@section('$SECTION$')&#10;    @parent&#10;    &#10;    $END$&#10;@stop" description="Blade @section extended" toReformat="false" toShortenFQNames="true">
+    <variable name="SECTION" expression="" defaultValue="&quot;content&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="{{{" value="{{{ $START$ }}}$END$" description="Blade {{{ echo escaped data }}}" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@unless" value="@unless ($START$)&#10;    $SELECTION$$END$&#10;@endunless" description="Blade @unless" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="{{--" value="{{-- $START$ --}}$END$" description="Blade comments" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@forelse" value="@forelse ($USERS$ as $USER$)&#10;    $SELECTION$$END$&#10;@empty&#10;&#10;@endforelse" description="Blade @forelse" toReformat="false" toShortenFQNames="true">
+    <variable name="USERS" expression="" defaultValue="&quot;$users&quot;" alwaysStopAt="true" />
+    <variable name="USER" expression="" defaultValue="&quot;$user&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="{!!" value="{!! $START$ !!}$END$" description="Blade {!! echo raw data !!}" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@component" value="@component('$COMPONENT$'$DATA$)&#10;    @slot('$SLOT$')&#10;        $SLOT_CONTENT$&#10;    @endslot&#10;    $CONTENT$&#10;@endcomponent" description="Blade @component" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="" defaultValue="&quot;components.input&quot;" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="&quot;, ['foo' =&gt; 'bar']&quot;" alwaysStopAt="true" />
+    <variable name="SLOT" expression="" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
+    <variable name="SLOT_CONTENT" expression="" defaultValue="&quot;Title&quot;" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="component" value="&lt;div class=&quot;alert alert-danger&quot;&gt;&#10;    &lt;div class=&quot;alert-title&quot;&gt;{{ $title }}&lt;/div&gt;&#10;&#10;    {{ $slot }}&#10;&lt;/div&gt;" description="Blade component scaffold" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="@auth" value="@auth$GUARD$&#10;    $CONTENT$&#10;@endauth" description="Blade @auth" toReformat="false" toShortenFQNames="true">
+    <variable name="GUARD" expression="" defaultValue="&quot;('admin')&quot;" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="@guest" value="@guest$GUARD$&#10;    $CONTENT$&#10;@endguest" description="Blade @guest" toReformat="false" toShortenFQNames="true">
+    <variable name="GUARD" expression="" defaultValue="&quot;('admin')&quot;" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="@switch" value="@switch($VARIABLE$)&#10;    @case($CASE$)&#10;        $CASE_CONTENT$&#10;        @break&#10;&#10;    @default&#10;        Default case...&#10;@endswitch" description="Blade @switch" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="&quot;$type&quot;" alwaysStopAt="true" />
+    <variable name="CASE" expression="" defaultValue="&quot;red&quot;" alwaysStopAt="true" />
+    <variable name="CASE_CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="@includeWhen" value="@includeWhen($BOOLEAN$, '$VIEW$'$DATA$)" description="Blade @includeWhen" toReformat="false" toShortenFQNames="true">
+    <variable name="BOOLEAN" expression="" defaultValue="&quot;$boolean&quot;" alwaysStopAt="true" />
+    <variable name="VIEW" expression="" defaultValue="&quot;partials.filename&quot;" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="&quot;, ['data' =&gt; $data]&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@each" value="@each('$PARTIAL$', $VARIABLE$, '$NAME$'$EMPTY$)" description="Blade @each" toReformat="false" toShortenFQNames="true">
+    <variable name="PARTIAL" expression="" defaultValue="&quot;view.name&quot;" alwaysStopAt="true" />
+    <variable name="VARIABLE" expression="" defaultValue="&quot;$jobs&quot;" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="&quot;job&quot;" alwaysStopAt="true" />
+    <variable name="EMPTY" expression="" defaultValue="&quot;, 'view.empty'&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@push" value="@push ('$START$')&#10;    $END$&#10;@endpush" description="Blade @push" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="&quot;scripts&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@stack" value="@stack('$CONTENT$')" description="Blade @stack" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTENT" expression="" defaultValue="&quot;content&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@inject" value="@inject('$CONTENT$','$SERVICE$')" description="Blade @inject" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTENT" expression="" defaultValue="&quot;metrics&quot;" alwaysStopAt="true" />
+    <variable name="SERVICE" expression="" defaultValue="&quot;App\Services\MetricsService&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@can" value="@can('$VERB$', $VARIABLE$)&#10;    $CAN$&#10;@elsecan('$VERB2$', $CLASS$)&#10;    $CANNOT$&#10;@endcan" description="Blade @can" toReformat="false" toShortenFQNames="true">
+    <variable name="VERB" expression="" defaultValue="&quot;update&quot;" alwaysStopAt="true" />
+    <variable name="VARIABLE" expression="" defaultValue="&quot;$post&quot;" alwaysStopAt="true" />
+    <variable name="CAN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VERB2" expression="" defaultValue="&quot;create&quot;" alwaysStopAt="true" />
+    <variable name="CLASS" expression="" defaultValue="&quot;App\Post::class&quot;" alwaysStopAt="true" />
+    <variable name="CANNOT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@cannot" value="@cannot('$VERB$', $VARIABLE$)&#10;    $CAN$&#10;@elsecannot('$VERB2$', $CLASS$)&#10;    $CANNOT$&#10;@endcannot" description="Blade @cannot" toReformat="false" toShortenFQNames="true">
+    <variable name="VERB" expression="" defaultValue="&quot;update&quot;" alwaysStopAt="true" />
+    <variable name="VARIABLE" expression="" defaultValue="&quot;$post&quot;" alwaysStopAt="true" />
+    <variable name="CAN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VERB2" expression="" defaultValue="&quot;create&quot;" alwaysStopAt="true" />
+    <variable name="CLASS" expression="" defaultValue="&quot;App\Post::class&quot;" alwaysStopAt="true" />
+    <variable name="CANNOT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@verbatim" value="@verbatim&#10;    $CONTENT$$SELECTION$&#10;@endverbatim" description="Blade @verbatim" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTENT" expression="" defaultValue="&quot;&lt;div class=\&quot;container\&quot;&gt;Hello, {{ name }}.&lt;/div&gt;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@isset" value="@isset($START$)&#10;    $SELECTION$$END$&#10;@endisset" description="Blade @isset" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@empty" value="@empty($START$)&#10;    $SELECTION$$END$&#10;@endempty" description="Blade @empty" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="mix" value="{{ mix('$ASSET$') }}" description="Laravel's global mix function" toReformat="false" toShortenFQNames="true">
+    <variable name="ASSET" expression="" defaultValue="&quot;/css/app.css&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="@lang" value="@lang('$CONENT$')" description="Blade @lang" toReformat="false" toShortenFQNames="true">
+    <variable name="CONENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="@slot" value="@slot('$START$')&#10;    $SELECTION$$END$&#10;@endslot" description="Blade @slot" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="@json" value="@json($VALUE$);" description="Blade @json" toReformat="true" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="&quot;$array&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="@hasSection" value="@hasSection('$SECTION$')&#10;&#9;&lt;div class=&quot;pull-right&quot;&gt;&#10;        @yield('$SECTION$')&#10;    &lt;/div&gt;&#10;    $SELECTION$$END$&#10;@endif" description="Blade @hasSection" toReformat="true" toShortenFQNames="true">
+    <variable name="SECTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="@csrf" value="@csrf" description="Blade CSRF Field" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="@method" value="@method('$METHOD$')" description="Blade @method" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD" expression="" defaultValue="&quot;PUT&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="@includeIf" value="@includeIf('$VIEW$'$DATA$)" description="Blade @includeIf" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW" expression="" defaultValue="&quot;view.name&quot;" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="&quot;, ['some' =&gt; 'data']&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="@includeFirst" value="@includeFirst($ARRAY$$DATA$)" description="Blade @includeFirst" toReformat="false" toShortenFQNames="true">
+    <variable name="ARRAY" expression="" defaultValue="&quot;['custom.admin', 'admin']&quot;" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="&quot;, ['some' =&gt; 'data']&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="@prepend" value="@prepend ('$START$')&#10;    $END$&#10;@endprepend" description="Blade @prepend" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="@doc" value="@php&#10;   /**&#10;    * @var $START$ $END$&#10;    */&#10;@endphp" description="Add PHPDOC to blade" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

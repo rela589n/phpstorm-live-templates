@@ -1,0 +1,8 @@
+<templateSet group="PHP magic methods">
+  <template name="__tos" value="public function __toString(): string&#10;{&#10;    $END$&#10;}" description="__toString" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+</templateSet>
