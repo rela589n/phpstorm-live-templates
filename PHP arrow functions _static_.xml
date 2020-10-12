@@ -1,0 +1,51 @@
+<templateSet group="PHP arrow functions (static)">
+  <template name="sfn" value="static fn ($PARAMETERS$) =&gt; $END$" description="static fn (static arrow function)" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="sfnt" value="static fn ($PARAMETERS$): $RETURN_TYPE$ =&gt; $END$" description="static fn: &lt;T&gt; (static arrow function, returns &lt;T&gt;)" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="sfna" value="static fn ($PARAMETERS$): array =&gt; $END$" description="static arrow function, returns array" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="sfni" value="static fn ($PARAMETERS$): int =&gt; $END$" description="static arrow function, returns int" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="sfnb" value="static fn ($PARAMETERS$): bool =&gt; $END$" description="static arrow function, returns bool" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="sfnf" value="static fn ($PARAMETERS$): float =&gt; $END$" description="static arrow function, returns float" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="sfns" value="static fn ($PARAMETERS$): string =&gt; $END$" description="static arrow function, returns string" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="sfnv" value="static fn ($PARAMETERS$): void =&gt; $END$" description="static arrow function, returns void" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

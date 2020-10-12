@@ -6,21 +6,8 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="sfn" value="static fn ($PARAMETERS$) =&gt; $END$" description="static fn (static arrow function)" toReformat="true" toShortenFQNames="true">
-    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
   <template name="sfunt" value="static function $NAME$($PARAMETERS$): $RETURN_TYPE$ {&#10;    $END$&#10;}" description="static function: &lt;T&gt;" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-  <template name="sfnt" value="static fn ($PARAMETERS$): $RETURN_TYPE$ =&gt; $END$" description="static fn: &lt;T&gt; (static arrow function, returns &lt;T&gt;)" toReformat="true" toShortenFQNames="true">
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
