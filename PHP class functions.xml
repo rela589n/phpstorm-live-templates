@@ -218,4 +218,28 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
+  <template name="prifst" value="private function $NAME$($PARAMETERS$): static&#10;{&#10;    $END$&#10;}" description="private function (returns static)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+  <template name="profst" value="protected function $NAME$($PARAMETERS$): static&#10;{&#10;    $END$&#10;}" description="protected function (returns static)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+  <template name="pubfst" value="public function $NAME$($PARAMETERS$): static&#10;{&#10;    $END$&#10;}" description="public function (returns static)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
 </templateSet>
