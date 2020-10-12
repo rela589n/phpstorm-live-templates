@@ -127,4 +127,22 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
+  <template name="apubft" value="abstract public function $NAME$($PARAMETERS$): $RETURN_TYPE$;" description="abstract public function (returns &lt;T&gt;)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+  <template name="aproft" value="abstract protected function $NAME$($PARAMETERS$): $RETURN_TYPE$;" description="abstract protected function (returns &lt;T&gt;)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
 </templateSet>
