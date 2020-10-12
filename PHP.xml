@@ -5,8 +5,7 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
-  <template name="rn" value="return new $CLASS_NAME$;" description="return new" toReformat="true" toShortenFQNames="true">
-    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="rn" value="return new $END$;" description="return new" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP Statement" value="true" />
     </context>
@@ -16,14 +15,25 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
-  <template name="re" value="return $WHAT$;" description="return" toReformat="true" toShortenFQNames="true">
-    <variable name="WHAT" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="re" value="return $END$;" description="return" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP Statement" value="true" />
     </context>
   </template>
   <template name="rnse" value="return new self($END$);" description="return new self" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="req" value="require &quot;$END$&quot;;" description="'require' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="reqo" value="require_once &quot;$END$&quot;;" description="'require_once' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Expression" value="true" />
       <option name="PHP Statement" value="true" />
     </context>
   </template>

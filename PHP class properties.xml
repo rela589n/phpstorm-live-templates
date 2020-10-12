@@ -131,4 +131,12 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
+  <template name="pript" value="private $TYPE$ $$$NAME$;" description="private property &lt;T&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
 </templateSet>

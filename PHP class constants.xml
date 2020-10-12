@@ -1,0 +1,10 @@
+<templateSet group="PHP class constants">
+  <template name="pric" value="private const $NAME$ = $VALUE$;" description="private const" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+</templateSet>
