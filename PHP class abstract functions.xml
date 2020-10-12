@@ -111,4 +111,20 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
+  <template name="aprofse" value="abstract protected function $NAME$($PARAMETERS$): self;" description="abstract protected function (returns self)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+  <template name="apubfse" value="abstract public function $NAME$($PARAMETERS$): self;" description="abstract public function (returns self)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
 </templateSet>
