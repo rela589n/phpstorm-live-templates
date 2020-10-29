@@ -71,7 +71,7 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="scope" value="/**&#10; * @param  \Illuminate\Database\Eloquent\Builder  $query&#10; * @return \Illuminate\Database\Eloquent\Builder&#10; */&#10;public function scope$NAME$($query)&#10;{&#10;    return $query $END$;&#10;}&#10;" description="scope" toReformat="false" toShortenFQNames="true">
+  <template name="scope" value="/**&#10; * @param  EloquentBuilder  $query&#10; * @return EloquentBuilder|self&#10; */&#10;public function scope$NAME$($query)&#10;{&#10;    return $query $END$;&#10;}&#10;" description="scope" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
