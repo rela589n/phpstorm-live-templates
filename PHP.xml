@@ -37,4 +37,20 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
+  <template name="__pc" value="parent::__construct($PARAMS$);$END$" description="call parent constructor" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="rf" value="return false;$END$" description="return false" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="rt" value="return true;$END$" description="return true" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
 </templateSet>

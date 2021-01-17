@@ -1,0 +1,8 @@
+<templateSet group="JavaScript">
+  <template name="ec" value="export class $CLASS$ &#10;{&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="jsClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
