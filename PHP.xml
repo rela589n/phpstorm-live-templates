@@ -43,6 +43,12 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
+  <template name="fqn" value="$CLASS_FQN$" description="current class FQN" toReformat="false" toShortenFQNames="false">
+    <variable name="CLASS_FQN" expression="phpQualifiedClassName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
   <template name="rf" value="return false;$END$" description="return false" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP Statement" value="true" />
