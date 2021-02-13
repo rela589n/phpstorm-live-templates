@@ -1,0 +1,28 @@
+<templateSet group="PHP typos">
+  <template name="retutn" value="return $END$" description="return" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="rturn" value="return $END$" description="return" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="retun" value="return $END$" description="return" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="reutrn" value="return $END$" description="return" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="fi" value="if ($CONDITION$) {&#10;    $END$&#10;}" description="if" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+</templateSet>

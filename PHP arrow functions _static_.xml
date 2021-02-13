@@ -48,4 +48,14 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="sfnb1" value="static fn () =&gt; true" description="static arrow function, returns bool true" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="sfnb0" value="static fn () =&gt; false" description="static arrow function, returns bool false" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>

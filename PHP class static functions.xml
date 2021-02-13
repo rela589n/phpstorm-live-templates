@@ -15,7 +15,7 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
-  <template name="prisfb" value="private static function $NAME$($PARAMETERS$): bool&#10;{&#10;    $END$&#10;}" description="private static function (returns bool value)" toReformat="true" toShortenFQNames="true">
+  <template name="prisfb" value="private static function $NAME$($PARAMETERS$): bool&#10;{&#10;    $END$&#10;}" description="private static function (returns bool)" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -23,7 +23,7 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
-  <template name="prisff" value="private static function $NAME$($PARAMETERS$): float&#10;{&#10;    $END$&#10;}" description="private static function (returns float value)" toReformat="true" toShortenFQNames="true">
+  <template name="prisff" value="private static function $NAME$($PARAMETERS$): float&#10;{&#10;    $END$&#10;}" description="private static function (returns float)" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -31,7 +31,7 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
-  <template name="prisfi" value="private static function $NAME$($PARAMETERS$): int&#10;{&#10;    $END$&#10;}" description="private static function (returns int value)" toReformat="true" toShortenFQNames="true">
+  <template name="prisfi" value="private static function $NAME$($PARAMETERS$): int&#10;{&#10;    $END$&#10;}" description="private static function (returns int)" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -39,7 +39,7 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
-  <template name="prisfs" value="private static function $NAME$($PARAMETERS$): string&#10;{&#10;    $END$&#10;}" description="private static function (returns string value)" toReformat="true" toShortenFQNames="true">
+  <template name="prisfs" value="private static function $NAME$($PARAMETERS$): string&#10;{&#10;    $END$&#10;}" description="private static function (returns string)" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -71,7 +71,7 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
-  <template name="prosfb" value="protected static function $NAME$($PARAMETERS$): bool&#10;{&#10;    $END$&#10;}" description="protected static function (returns bool value)" toReformat="true" toShortenFQNames="true">
+  <template name="prosfb" value="protected static function $NAME$($PARAMETERS$): bool&#10;{&#10;    $END$&#10;}" description="protected static function (returns bool)" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -79,7 +79,7 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
-  <template name="prosff" value="protected static function $NAME$($PARAMETERS$): float&#10;{&#10;    $END$&#10;}" description="protected static function (returns float value)" toReformat="true" toShortenFQNames="true">
+  <template name="prosff" value="protected static function $NAME$($PARAMETERS$): float&#10;{&#10;    $END$&#10;}" description="protected static function (returns float)" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -87,7 +87,7 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
-  <template name="prosfi" value="protected static function $NAME$($PARAMETERS$): int&#10;{&#10;    $END$&#10;}" description="protected static function (returns int value)" toReformat="true" toShortenFQNames="true">
+  <template name="prosfi" value="protected static function $NAME$($PARAMETERS$): int&#10;{&#10;    $END$&#10;}" description="protected static function (returns int)" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -95,7 +95,7 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
-  <template name="prosfs" value="protected static function $NAME$($PARAMETERS$): string&#10;{&#10;    $END$&#10;}" description="protected static function (returns string value)" toReformat="true" toShortenFQNames="true">
+  <template name="prosfs" value="protected static function $NAME$($PARAMETERS$): string&#10;{&#10;    $END$&#10;}" description="protected static function (returns string)" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -127,7 +127,7 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
-  <template name="pubsfb" value="public static function $NAME$($PARAMETERS$): bool&#10;{&#10;    $END$&#10;}" description="public static function (returns bool value)" toReformat="true" toShortenFQNames="true">
+  <template name="pubsfb" value="public static function $NAME$($PARAMETERS$): bool&#10;{&#10;    $END$&#10;}" description="public static function (returns bool)" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -135,7 +135,7 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
-  <template name="pubsff" value="public static function $NAME$($PARAMETERS$): float&#10;{&#10;    $END$&#10;}" description="public static function (returns float value)" toReformat="true" toShortenFQNames="true">
+  <template name="pubsff" value="public static function $NAME$($PARAMETERS$): float&#10;{&#10;    $END$&#10;}" description="public static function (returns float)" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -143,7 +143,7 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
-  <template name="pubsfi" value="public static function $NAME$($PARAMETERS$): int&#10;{&#10;    $END$&#10;}" description="public static function (returns int value)" toReformat="true" toShortenFQNames="true">
+  <template name="pubsfi" value="public static function $NAME$($PARAMETERS$): int&#10;{&#10;    $END$&#10;}" description="public static function (returns int)" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -151,7 +151,7 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
-  <template name="pubsfs" value="public static function $NAME$($PARAMETERS$): string&#10;{&#10;    $END$&#10;}" description="public static function (returns string value)" toReformat="true" toShortenFQNames="true">
+  <template name="pubsfs" value="public static function $NAME$($PARAMETERS$): string&#10;{&#10;    $END$&#10;}" description="public static function (returns string)" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -186,6 +186,33 @@
   <template name="prosfse" value="protected static function $NAME$($PARAMETERS$): self&#10;{&#10;    $END$&#10;}" description="protected static function (returns self)" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+  <template name="pubsft" value="public static function $NAME$($PARAMETERS$): $RETURN_TYPE$&#10;{&#10;    $END$&#10;}" description="public static function (returns &lt;T&gt;)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+  <template name="prisft" value="private static function $NAME$($PARAMETERS$): $RETURN_TYPE$&#10;{&#10;    $END$&#10;}" description="private static function (returns &lt;T&gt;)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+  <template name="prosft" value="protected static function $NAME$($PARAMETERS$): $RETURN_TYPE$&#10;{&#10;    $END$&#10;}" description="protected static function (returns &lt;T&gt;)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
       <option name="PHP Trait Member" value="true" />
