@@ -131,4 +131,25 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
+  <template name="prispm" value="private static mixed $$$NAME$;" description="private static mixed property" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;arr&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+  <template name="prospm" value="protected static mixed $$$NAME$;" description="protected static mixed property" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+  <template name="pubspm" value="public static mixed $$$NAME$;" description="public static mixed property" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
 </templateSet>

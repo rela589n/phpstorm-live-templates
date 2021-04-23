@@ -1,0 +1,7 @@
+<templateSet group="PHP Testing">
+  <template name="sam" value="self::assertSame($END$);" description="assertSame" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

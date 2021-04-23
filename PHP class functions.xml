@@ -242,4 +242,28 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
+  <template name="prifm" value="private function $NAME$($PARAMETERS$): mixed&#10;{&#10;    $END$&#10;}" description="private function (returns mixed)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+  <template name="profm" value="protected function $NAME$($PARAMETERS$): mixed&#10;{&#10;    $END$&#10;}" description="protected function (returns mixed)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+  <template name="pubfm" value="public function $NAME$($PARAMETERS$): mixed&#10;{&#10;    $END$&#10;}" description="public function (returns mixed)" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
 </templateSet>

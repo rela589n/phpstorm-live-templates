@@ -176,4 +176,11 @@
       <option name="PHP Trait Member" value="true" />
     </context>
   </template>
+  <template name="pripm" value="private mixed $$$NAME$;" description="private mixed property" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;arr&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
 </templateSet>

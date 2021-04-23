@@ -162,4 +162,12 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
+  <template name="foruuid" value="$table-&gt;foreignUuid($FIRST_FOREIGN_ID$)&#10;    -&gt;references($FIRST_ID$)&#10;    -&gt;on($FIRST_TABLE$)&#10;    -&gt;cascadeOnUpdate()&#10;    -&gt;cascadeOnDelete();" description="foreign uuid with cascade actions" toReformat="true" toShortenFQNames="true">
+    <variable name="FIRST_FOREIGN_ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIRST_ID" expression="" defaultValue="&quot;'uuid'&quot;" alwaysStopAt="true" />
+    <variable name="FIRST_TABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
 </templateSet>
